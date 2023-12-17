@@ -1,0 +1,126 @@
+.miele{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.contenitore{
+    border-radius: 20px; background-color:
+    rgb(245, 245, 146);
+}
+
+
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+    
+}
+    
+
+
+.testo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottone{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    
+}
+
+button{
+    border-radius: 20px;
+    background-color: yellow;
+    width: 150px;
+    border:hidden;
+    justify-content: center;
+}
+
+.scritte{
+    color: rgb(160, 124, 6);
+}
+
+ .main2 {
+   
+    display: flex;
+    justify-content: center;
+    
+
+}
+.testocenter{
+    background-color: rgb(245, 245, 148);
+    border-radius: 20px;
+    margin-bottom: 150px;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main2 button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  .main2 .dimension {
+    width: 20px; 
+    height: 20px; 
+    margin-right: 5px;
+    
+  }
+  
+  .main2 .testobutton {
+    display: inline-block;
+    
+  }
+.main3{
+    background-color:rgb(245, 245, 146);
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+
+} 
+
+.tot {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+
+}
+
+.imgmiele {
+    width: 500px;
+    margin-left: 50px;
+    padding: 10px;
+    margin: 20px;
+    order: 2; 
+}
+
+.delicious {
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 30px;
+    order: 1; 
+}
+
+@media (max-width: 767px) {
+    .imgmiele {
+        order: 2;
+    }
+
+    .delicious {
+        order: 1; 
+    }
+}
+
+/*si, ho usato le media queries, ma non trovo un altro sistema al momento, putroppo ho il tempo contato 
+e voglio consegnare qualcosa di funzionante, se avrò tempo proverò a trovare un'altra soluzione*/
